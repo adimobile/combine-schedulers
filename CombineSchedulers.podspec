@@ -10,4 +10,5 @@ Pod::Spec.new do |spec|
   spec.swift_versions = ['5.4']
   spec.source         = { :git => "https://github.com/adimobile/combine-schedulers.git", :tag => "#{spec.version}" }
   spec.source_files   = "Sources/**/*.swift"
+  spec.dependency "XCTestDynamicOverlay"
 end
